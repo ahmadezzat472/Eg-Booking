@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign_up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+ <!--home icon-->
+ <link rel="icon" type="image/x-icon" href="images/help.jpeg">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="box-sign-up">
+        <i class="fa-brands fa-facebook"></i>
+        <div class="form">
+        <p class="text-in-form">Create account</p>
+            <form  method="get"  onclick="signup()" action="login.html" class="org-form"> 
+            <input type="text" name="username"   placeholder="Name" required id="username">
+            <input type="email" name="email" placeholder="Email" required id="email">
+            <input type="password" name="password" placeholder="Password" required id="Password">
+            <input id="btn" type="submit" value="SIGNUP"> 
+          </form>
+        </div>
+         <DIV class="logo"> <a href="index.html" style="text-decoration: none; color: aliceblue;" >EG-Booking</a></DIV> 
+        <h1 class="welcome">Welcome back!</h1>
+        <div class="ahmeed">
+            <p>
+                To keep connectted with us please login with 
+                your personal info.
+            </p>
+        </div>
+        <a href="login.html" class="link">SIGN IN</a>
+      
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<!-- onsubmit="signup()" -->

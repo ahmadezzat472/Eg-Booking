@@ -1,0 +1,202 @@
+:root{
+    scroll-behavior: smooth;
+}
+.help .help-intro
+{
+    background-image:url(../images/intro-help.jpeg);
+    background-attachment:initial;
+    background-repeat: no-repeat;
+    background-size:cover;    
+    margin: 0px;
+    height: 560px;
+
+}
+
+.help .txt-intro
+{
+    text-align: center;
+    padding-top: 100px;
+    color: var(--secondry-color);
+    font-weight: bold;
+    font-size: 40px;
+    opacity: 1;
+}
+.help .warning
+{
+    margin: 40px 20px;
+    border-left:10px var(--third-color) solid ;
+}
+
+.help .warning-txt
+{
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #455a82;
+    padding: 2px 8px;
+    border-radius: 1pc;
+}
+
+.help .bottom-faq
+{
+    border: 10px solid #101480;
+    background-color: #003580;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 1px;
+    border-radius: 50px;
+    width: 180px;
+    position: relative;
+    transform: scale(1);
+}
+.help .bottom-faq:hover
+{
+    transform: scale(1.1);
+    border: 10px solid #101480;
+}
+
+.help .bottom-faq:hover i
+{
+    color:#ffff00;
+}
+
+.help .bottom-faq:hover a
+{
+    color:#ac2149;
+}
+  
+.help .bottom-faq a
+{
+    text-decoration: none;
+    color: #3780e6;
+}
+
+.help .faq-txt
+{
+ margin: 20px 20px 20px 10px ;
+ background-color: #72ba65;
+ padding: 5px;
+ border-radius: 20px;
+ font-weight: bold;
+}
+
+.help .faq
+{ 
+    margin-left: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.help .faq h1
+{
+    margin-right: auto;
+    margin-left:auto ;
+    border-bottom:3px #000000 solid ;
+}
+
+
+.help .faq-icon
+{
+    font-size: 50px;
+    color: #ac2149;
+}
+
+.help .faq-intro
+{
+    text-align: center;
+    border: 10px solid #101480;
+    background-color: #3780e6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.help .little-about
+{
+    text-align: center;
+    padding: 64px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.help .little-about-background
+{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: -300vw;
+    left: -300vw;
+    height: 600vw;
+    background-position: 50%;
+    background-size: 100vw 100%;
+    clip-path: circle(300vw at center);
+    background-image: linear-gradient(99deg,rgba(0, 0, 0, 0.968),#003580 40%,rgba(255, 255, 255, 0.1));
+}
+
+
+.help .contain
+{
+    position: relative;
+    align-items: center;
+    transition: max-width 250ms ease-out;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 67.5em;
+    max-width: min(100%,67.5em);
+    color: white;
+}
+
+
+.help .hr
+{
+    background: linear-gradient(135deg,#de1666 0%,#73146f 100%);
+    height: 4px;
+    width: 90px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 2px;
+}
+
+.help .little-about-title
+{
+    color: var(--secondry-color);
+    text-align: center;
+    font-family: CeraPro-Bold,'Cera Pro',sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 16px auto 4px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.help .little-about-subtitle
+{
+    color: #fff;
+    font-family: CeraPro-Regular,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    opacity: .7;
+    margin: 0 0 32px;
+}
+.contain p{
+    color: #fff;
+}
+p{
+    color: var(--secondry-color);
+    margin: 10px;
+}
+.footer{
+    margin-top: 0;
+}

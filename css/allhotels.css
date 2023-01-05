@@ -1,0 +1,491 @@
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.special-heading {
+    text-align: center;
+    color: #ebeced;
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+}
+
+/* end container */
+/* ------------------------------------------------------------ */
+/* start nav  */
+nav {
+    background-color: rgb(145, 145, 253);
+}
+
+nav .container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end nav  */
+/* ------------------------------------------------------------ */
+/* start header  */
+.Hotels  .h{
+    color: var(--secondry-color);
+}
+
+.Hotels  .h{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.Hotels .h .container .info h1 {
+    font-size: 32px;
+}
+
+.Hotels .h .container .info p {
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+.Hotels .h .head{
+    color: var(--secondry-color);
+}
+
+.Hotels .h .container .info .search {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.Hotels .h .container .info .sear {
+    display: block;
+    width: 320px;
+    height: 42px;
+    font-size: 15px;
+    padding: 0 35px 0;
+}
+
+.Hotels .h .container .info .search .sub {
+    background-color: #0071c2;
+    padding: 5px 32px;
+    height: 42px;
+    color: white;
+    cursor: pointer;
+}
+
+.Hotels .h .container .info .search .sub:hover {
+    background-color: #015d9f;
+    border: solid 3px black;
+}
+
+.Hotels .h .container .info .check {
+    height: 50px;
+    margin-top: 7px;
+}
+
+.Hotels .container .info .check input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.Hotels .h .container .info .check label {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.Hotels .h .container .info .search::before {
+    content: '\f236';
+    font-family: FontAwesome;
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    color: #897f79
+}
+
+@media (max-width:582px) {
+    .Hotels .h .container .info h1 {
+        font-size: 25px;
+    }
+
+  .Hotels .h  .container .info p {
+        margin-top: -14px;
+        margin-bottom: 15px;
+    }
+
+  .Hotels .h .container .info .sear {
+        display: block;
+        width: 240px;
+        height: 35px;
+        font-size: 12px;
+        padding: 0 35px 0;
+    }
+
+  .Hotels .h .container .info .search::before {
+        top: 10px;
+        font-size: 15px;
+    }
+
+  .Hotels .h .container .info .search .sub {
+        background-color: #0071c2;
+        padding: 5px 20px;
+        height: 35px;
+    }
+}
+
+@media (max-width:500px) {
+  .Hotels .h .container .info h1 {
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+   .Hotels .h .container .info p {
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+}
+
+/* end header */
+/* ------------------------------------------------------------ */
+/* start section */
+
+.otel .container{
+    color: var(--secondry-color);
+}
+.otel .container .links {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+.otel .container .links a{
+    color: var(--secondry-color);
+}
+
+.otel .links a:first-child {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.otel .links a:first-child:hover,
+.otel .links a:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+.otel .links a:first-child::after {
+    content: "";
+    position: absolute;
+    top: calc(55% - 6px);
+    left: calc(25% - 8px);
+    border-color: transparent transparent transparent red;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.otel .links a:nth-child(2) {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.otel .links a:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    top: calc(54% - 6px);
+    left: calc(63% - 8px);
+    border-color: transparent transparent transparent red;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.otel .links a:last-child {
+    text-decoration: none;
+}
+
+.otel .container h2 {
+    font-size: 24px;
+}
+
+.otel .container .all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.otel .container .all .card {
+    margin: 30px 0;
+    display: flex;
+    width: 700px;
+    padding: 20px;
+    border: 0.5px solid #897f7969;
+    border-radius: 5px;
+    transition: 0.8s;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+    opacity: 0.8;
+}
+
+.otel .container .all .card:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+.otel .container .all .card .imge img {
+    width: 200px;
+    height: 100%;
+}
+
+.otel .container .all .card .imge {
+    margin-right: 16px;
+}
+
+
+.otel .container .all .card .info {
+    width: calc(100% - 216px);
+}
+.otel .container .all .card .info .head a{
+    color: var(--secondry-color);
+}
+.otel .container .all .card .info .head h3{
+    padding-top:20px ;
+}
+.otel .container .all .card .info .first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.otel .container .all .card .info .head h2 a,
+.otel .container .all .card .info .head h2 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.otel .container .all .card .info .head a:hover {
+    color: black;
+}
+
+.otel .container .all .card .info .head h3 a,
+.otel .container .all .card .info .head h3 {
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: -8px;
+    color: #0071c2;
+}
+
+.otel .container .all .card .info .support {
+    display: flex;
+    justify-content: flex-start;
+    width: 110px;
+}
+
+.otel .container .all .card .info .support span {
+    background-color: var(--third-color);
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.otel .container .all .card .support .rev {
+    display: flex;
+    line-height: 1;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.otel .container .all .card .support .rev div:first-child {
+    font-weight: bold;
+}
+
+.otel .container .all .card .support .rev div:last-child {
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.otel .container .all .card .info .second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.otel .container .all .card .info .second .one .fixed1 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.otel .container .all .card .info .second .one .fixed2 {
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.otel .container .all .card .info .second .one .fixed3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #cc0000;
+}
+
+.otel .container .all .card .info .second .two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.7;
+}
+
+.otel .container .all .card .info .second .two .fixed {
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.otel .container .all .card .info .second .two .praice {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.otel .container .all .card .info .second .two del {
+    font-size: 12px;
+    font-weight: 600;
+    color: #cc0000;
+    margin-right: 4px;
+}
+
+.otel .container .all .card .info .second .two a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    background-color: var(--third-color);
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.otel .container .all .card .info .second .two a:hover {
+    background-color: #024576;
+}
+
+@media (max-width:730px) {
+    .otel .container .all .card {
+        width: auto;
+        padding: 10px;
+    }
+
+    .otel .container .all {
+        flex-wrap: nowrap;
+    }
+
+    .otel .container .all .card .info .second .two a {
+        font-size: 10px;
+        padding: 0 8px;
+        margin-top: 5px;
+    }
+
+    .otel .container .all .card .info .second .two .fixed {
+        font-size: 11px;
+    }
+
+    .otel .container .all .card .info .second .two .praice {
+        font-size: 11px;
+    }
+
+    .otel .container .all .card .info .second .two .fixed {
+        font-size: 11px;
+    }
+
+    .otel .container .all .card .info .head h2 a {
+        font-size: 16px;
+    }
+
+    .otel .container .all .card .info .head h3 a {
+        font-size: 13px;
+    }
+
+    .otel .container .all .card .info .second .one .fixed1,
+    .otel .container .all .card .info .second .one .fixed2,
+    .otel .container .all .card .info .second .one .fixed3 {
+        font-size: 11px;
+    }
+
+    .otel .container .all .card .info .second .two del {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:500px) {
+    .otel .container .all .card:hover {
+        transform: scale(1);
+    }
+
+    .otel .container .all .card .imge img {
+        width: 150px;
+    }
+
+    .otel .container .all .card .imge {
+        margin-right: 10px;
+    }
+
+    .otel .container .all .card .info {
+        width: 70%;
+    }
+
+    .otel .container .all .card .info .second .two .fixed {
+        font-size: 9px;
+    }
+
+    .otel .container .all .card .info .second .two .praice {
+        font-size: 11px;
+    }
+
+    .otel .container .all .card .info .second .two .fixed {
+        font-size: 9px;
+    }
+
+    .otel .container .all .card .info .second .two a {
+        padding: 0 3px;
+    }
+
+    .otel .container .all .card .info .head h2 {
+        margin-bottom: 12px;
+        line-height: 1;
+    }
+
+    .otel .container .all .card .info .head h3 {
+        line-height: 1;
+    }
+
+    .otel .container .all .card .info .head h2 a {
+        font-size: 14px;
+    }
+
+    .otel .container .all .card .info .head h3 a {
+        font-size: 12px;
+    }
+
+    .otel .container .all .card .info .second .one .fixed1,
+    .otel .container .all .card .info .second .one .fixed2,
+    .otel .container .all .card .info .second .one .fixed3 {
+        font-size: 8px;
+    }
+
+    .otel .container .all .card .info .second .two del {
+        font-size: 8px;
+    }
+
+    .otel .container h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ------------------------------------------------------------ */
+/* start footer  */
+.footer{
+    margin-bottom: 0;
+}

@@ -1,0 +1,126 @@
+ @media(max-width: 991px){
+.contact{
+        padding: 50px;
+    }
+.contact .container{
+        flex-direction: column;
+    }
+.contact .container .contactInfo,.contactform{
+        margin-bottom: 40px;
+    }
+.contact.contactInfo{
+        width: 100%;
+    }
+} 
+.contact{
+    height: 1000px ;
+}
+.contact{
+    position: relative;
+   min-height: 100vh;
+   padding: 50px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   background-image:url(../images/contact.jpg);
+   background-size: cover;
+   top: -30px;
+  }
+   .contact .content{
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+    top: -20px;
+   }
+   .contact .content h2{
+       font-size: 36px;
+       font-weight: 500;
+       color:#fff;
+       margin-bottom: 10px ;
+   }
+   .contact .content p{
+    font-size: 15px;
+    font-weight: 200;
+    color:#fff;
+   }
+   .contact .container {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 30px;
+   }
+   .contact .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .contact .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+   }
+   .contact .icon {
+       min-width: 40px;
+       height:40px;
+       background: #fff;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+       font-size: 20px;
+   }
+   .contact .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+   }
+   .contact .text h3 {
+    font-weight: 500;
+    color: var(--third-color);
+   }
+   .contact .contactform {
+    width: 320px;
+    padding: 40px;
+    background-color: #fff;
+   }
+   .contact .contactform h2 {
+       font-size: 30px;
+       color: #333;
+       font-weight: 500;
+       padding-bottom: 15px;
+   }
+   .contact .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+   }
+   .contact .inputBox input,
+   .inputBox textarea {
+     display: block;
+    width: 200px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+   }
+   .contact .inputBox #btn {
+    width: 100px;
+    background:var(--third-color);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+   }
+.footer{
+    margin-top: 0;
+}

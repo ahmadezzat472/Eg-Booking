@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!--set meta tags-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="description" content="Booking Hotels">
+     <meta name="keywords" content="html css javascript">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--link css page-->
+     <link rel="stylesheet" href="css/main.css">
+     <!--link normalize the page-->
+     <link rel="stylesheet" href="css/normalize.css">
+     <!--link home css-->
+     <link rel="stylesheet" href="css/home.css">
+     <!--google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet"> 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet"> 
+     <!--fontawsome library-->
+     <script src="https://kit.fontawesome.com/83fb00de9d.js" crossorigin="anonymous"></script>
+     <!--home icon-->
+     <link rel="icon" type="image/x-icon" href="images/help.jpeg">
+     <title>Eg-Booking</title>
+</head>
+<body onload="yt()">
+    <!--start header-->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" id="icon"><i class="fa-solid fa-hotel"></i>
+                <p><span>EG</span>-Booking</p>
+                </a>    
+            </div>
+            <div class="links" id="lin">
+                <ul>
+                    <li><a href="index.html" class="active active1 disapled" >Home</a></li>
+                    <li class="drbdown" >
+                        <a href="#"  id="services">services</a>
+                        <div class="content" id="content">
+                            <span><a href="tophotels.html">Hotels</a></span>
+                            <span><a href="air.html">Air Planing</a></span>
+                            <span><a href="car booking.html">Car Booking</a></span>
+                        </div>
+                    </li>
+                    <li><a href="about us.html" class="active1 disabled" >About us</a></li>
+                    <img src="images/moon.png" alt="moon" id="moon">
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--end header-->
+
+
+<section class="home">
+    <!-------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="home-page">
+         <!-- ahmed makboul -->
+         <div id="loginplace"><a href="login.html" id="namelink">Sign in</a></div>
+         <div onclick="ahmed()" id="place"><a href="#" id="namelink1">logout</a></div>
+         <div id="profile1"><a style="text-decoration: none;" href="profile.html">profile</a></div>
+         <!-- end -->
+        <div class="home-intro">
+             <div class="container  col-white txt-cen">
+                 <h1 class="fw-bold">Welcome to EG-BOOKING</h1>
+                  <p> Find Great Accommodation Deals in Egypt. Easy and Fast Booking! Get The Best Price Available On Your Hotel Stay. Book With Confidence! . And you can also book cars and flights</p>
+             </div>
+        </div>
+
+        <!-- <svg class="wave-line"  x="0" y="0" viewBox="0 0 1300 100" >
+            <path  d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+         </svg> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#003580" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,138.7C672,149,768,235,864,256C960,277,1056,235,1152,197.3C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg> -->
+
+        <svg id="wave" class="wave-line" transition: 0.3s" viewBox="0 0 1440 260" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(0, 53, 128, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(23.536, 61.588, 243.047, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,182L48,164.7C96,147,192,113,288,95.3C384,78,480,78,576,91C672,104,768,130,864,121.3C960,113,1056,69,1152,60.7C1248,52,1344,78,1440,108.3C1536,139,1632,173,1728,169C1824,165,1920,121,2016,95.3C2112,69,2208,61,2304,86.7C2400,113,2496,173,2592,195C2688,217,2784,199,2880,182C2976,165,3072,147,3168,125.7C3264,104,3360,78,3456,82.3C3552,87,3648,121,3744,147.3C3840,173,3936,191,4032,195C4128,199,4224,191,4320,173.3C4416,156,4512,130,4608,112.7C4704,95,4800,87,4896,91C4992,95,5088,113,5184,112.7C5280,113,5376,95,5472,99.7C5568,104,5664,130,5760,117C5856,104,5952,52,6048,26C6144,0,6240,0,6336,34.7C6432,69,6528,139,6624,164.7C6720,191,6816,173,6864,164.7L6912,156L6912,260L6864,260C6816,260,6720,260,6624,260C6528,260,6432,260,6336,260C6240,260,6144,260,6048,260C5952,260,5856,260,5760,260C5664,260,5568,260,5472,260C5376,260,5280,260,5184,260C5088,260,4992,260,4896,260C4800,260,4704,260,4608,260C4512,260,4416,260,4320,260C4224,260,4128,260,4032,260C3936,260,3840,260,3744,260C3648,260,3552,260,3456,260C3360,260,3264,260,3168,260C3072,260,2976,260,2880,260C2784,260,2688,260,2592,260C2496,260,2400,260,2304,260C2208,260,2112,260,2016,260C1920,260,1824,260,1728,260C1632,260,1536,260,1440,260C1344,260,1248,260,1152,260C1056,260,960,260,864,260C768,260,672,260,576,260C480,260,384,260,288,260C192,260,96,260,48,260L0,260Z"></path>
+        </svg> 
+
+        <div class="our-services ">
+            <div class="container">
+                <h2 class="txt-cen">
+                    Our services
+                </h2>
+                <div class="services txt-cen fw-bold ">
+                    <div class="option in-bl">
+                        <i class="fa-solid fa-car"></i>
+                        <a href="car booking.html">Cars</a>
+                    </div>
+                    <div class="option in-bl">
+                        <i class="fa-solid fa-plane"></i>
+                        <a href="air.html">Flights</a>
+                    </div>
+                    <div class="option in-bl">
+                        <i class="fa-solid fa-hotel"></i>
+                        <a  href="tophotels.html">hotels</a>
+                        <!-- <a  href="hotels.html">hotels</a> -->
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="features  ">
+            <div class="container">
+                <div class="h-features container">
+                    <i  class="in-bl fa-regular fa-circle-right"></i>
+                    <h1 class="in-bl">The features of booking from EG-BOOKING</h2>
+                </div>
+                <div class="i-features">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <h2 class="in-bl" >Prices you can't beat!</h2>
+                </div>   
+                <div class="i-features">
+                    <i class="fa-solid fa-lock"></i>
+                    <h2 class="in-bl" >Booking is safe</h2>
+                </div>   
+                <div class="i-features">
+                    <i class="fa-solid fa-children"></i>
+                    <h2 class="in-bl" >Prices you can't beat!</h2>
+                </div>   
+                <div class="i-features">
+                    <i class="fa-solid fa-comments"></i>
+                    <h2 class="in-bl" >The staff speak English</h2>
+                </div>   
+                <div class="i-features">
+                    <i class="fa-solid fa-gears"></i>
+                    <h2 class="in-bl" >Manage your bookings online</h2>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!-------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--start footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 id="h3-1">Company</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tophotels.html">Hotels</a></li>
+                        <li><a href="air.html">Air planning</a></li>
+                        <li><a href="about us.html">About us</a></li>
+                        <li><a href="car booking.html">Car Booking</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 id="h3-2">Get Help</h3>
+                    <ul>
+                        <li><a href="help.html">Help</a></li>
+                        <li><a href="contact_us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col social">
+                    <h3 id="h3-3">Social Media</h3>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+    <script src="js/main theme.js"></script>
+    <!-------------------------------------------------------------------------------------------------------------------------------------------->
+    <script src="js/main.js"></script>
+</body>
+</html>

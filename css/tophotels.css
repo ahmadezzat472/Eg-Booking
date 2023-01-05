@@ -1,0 +1,434 @@
+.Hotels .position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Hotels .special-heading {
+    text-align: center;
+    color: var(--third-color);
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+}
+/* end container */
+/* ------------------------------------------------------------ */
+/* start nav  */
+.Hotels nav {
+    background-color: rgb(145, 145, 253);
+}
+
+.Hotels nav .container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end nav  */
+
+/* ------------------------------------------------------------ */
+/* start hotel section */
+.Hotels .otel {
+    display: flex;
+    flex: 50%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.Hotels .otel .container h2,p{
+    color: var(--secondry-color);
+    padding-top: 20px;
+}
+
+.Hotels .otel .container .links {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+.Hotels .otel .container .links a{
+    color: var(--secondry-color);
+}
+
+.Hotels .otel .links a:first-child {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.Hotels .otel .links a:first-child:hover {
+    text-decoration: underline;
+}
+
+.Hotels .otel .links a:first-child::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(50% - 8px);
+    border-color: transparent transparent transparent red;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.Hotels .otel .links a:last-child {
+    text-decoration: none;
+    color:var(--secondry-color);
+    font-size: 17px;
+}
+
+.Hotels .otel .container h2 {
+    font-size: 24px;
+}
+
+.Hotels .otel .container p {
+    font-size: 14px;
+    margin: -10px 0 30px;
+}
+
+.Hotels .otel .container .all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.Hotels .otel .container .all .card {
+    margin: 0 18px 16px 0;
+    display: flex;
+    width: 447px;
+    padding: 0 0 16px 0;
+}
+
+/* .otel .container .all .card:not(.card:last-child) {
+    border-bottom: 0.5px solid #897f7969;
+} */
+
+.Hotels .otel .container .all .card:not(.card:nth-last-child(2)) {
+    border-bottom: 0.5px solid #897f7969;
+}
+
+.Hotels .otel .container .all .card .imge img {
+    width: 150px;
+    height: 150px;
+}
+
+.Hotels .otel .container .all .card .imge {
+    margin-right: 16px;
+}
+
+
+.Hotels .otel .container .all .card .info {
+    width: calc(100% - 150px);
+}
+.Hotels .otel .container .all .card .info .head a{
+    color: var(--secondry-color);
+}
+.Hotels .otel .container .all .card .info .head h2,h3{
+    padding-top: 20px;
+}
+.Hotels .otel .container .all .card .info .first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.Hotels .otel .container .all .card .info .first span{
+    background-color: var(--third-color);
+}
+
+.Hotels .otel .container .all .card .info .head h2 a,
+.otel .container .all .card .info .head h2 {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.Hotels .otel .container .all .card .info .head h3 a,
+.otel .container .all .card .info .head h3 {
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: -8px;
+    color: #6b6b6b;
+}
+
+.Hotels .otel .container .all .card .info span {
+    background-color: #003580;
+    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.Hotels .otel .container .all .card .info .second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Hotels .otel .container .all .card .info .second .fixed {
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+.Hotels .otel .container .all .card .info .second .praice {
+    padding: 10px 0;
+    color: var(--secondry-color);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Hotels .otel .container .lin a {
+    background-color: #0071c2;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.Hotels .otel .container .lin {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .Hotels  .otel .container .all .card {
+        width: 450px;
+    }
+}
+
+@media (min-width:600px) and (max-width:992px) {
+   .Hotels .otel .container .all {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+/* end hotel section */
+/* ------------------------------------------------------------ */
+/* start problem section */
+
+.problem {
+    padding: 30px 0;
+}
+
+.problem .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.problem .container .left {
+    width: 60%;
+    background-color: rgb(231, 237, 242);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.problem .container .right {
+    border: 1px solid #897f7969;
+    
+}
+
+.problem .container .right .q:not(.q:last-child) {
+    border-bottom: 0.5px solid #897f7969;
+}
+
+
+.problem .container .right .q {
+    padding: 4px 15px;
+    height: 56px;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+.problem .container .right .q h3 {
+    font-size: 18px;
+    color: var(--third-color);
+    line-height: 2.6;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+.problem .container .right .q:hover {
+    overflow: visible;
+    background-color: rgb(231, 237, 242);
+    height: 42%;
+}
+
+.problem .container .right .q p {
+    color: #6b6b6b;
+}
+
+@media (max-width:1200px) {
+    .problem .container .right .q p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:710px) {
+    .problem .container .right .q:hover {
+        height: 52%;
+    }
+}
+
+@media (max-width:525px) {
+    .problem .container .right .q:hover {
+        height: 55%;
+    }
+
+    .problem .container .right .q h3 {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+
+    .problem .container .right .q p {
+        font-size: 10px;
+    }
+
+    .problem .container .left {
+        width: 50%;
+        font-size: 18px;
+    }
+}
+
+/* end problem section */
+/* ------------------------------------------------------------ */
+/* start discover section */
+
+.Hotels .discover {
+    padding: 60px 0;
+    background-color: #003580;
+    margin: 80px 0 0;
+    color: white;
+}
+
+.Hotels .discover .container .first {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Hotels .discover .container .first img {
+    width: 47%;
+    padding: 10px;
+    margin-right: 3%;
+}
+
+.Hotels .discover .container .first .info {
+    padding: 10px;
+}
+
+.Hotels .discover .container .first .info h3 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.Hotels .discover .container .first .info p {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.Hotels .discover .container .first .info a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #0071c2;
+    border-radius: 2px;
+}
+
+.Hotels .discover .container .first .info a:hover {
+    background-color: #013154;
+}
+
+.Hotels .discover .container .second {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.Hotels .discover .container .second .icon-word {
+    display: flex;
+    width: calc(90% / 3);
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.Hotels .discover .container .second .icon-word:not(.icon-word:last-child) {
+    border-right: solid 1px #897f7969;
+}
+
+.Hotels .discover .container .icon-word .data span {
+    display: inline-block;
+}
+
+.Hotels .discover .container .icon-word .data span:first-child {
+    font-size: 20px;
+}
+
+.Hotels .discover .container .icon-word .data span:last-child {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+.Hotels .discover .container .second .icon-word i {
+    font-size: 40px;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 2.1;
+}
+
+@media (max-width:600px) {
+  .Hotels   .discover .container .first img {
+        width: 40%;
+    }
+
+   .Hotels  .discover .container .first .info h3 {
+        font-size: 25px;
+    }
+
+  .Hotels   .discover .container .first .info p {
+        font-size: 16px;
+
+    }
+
+  .Hotels   .discover .container .icon-word .data span:first-child {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+   .Hotels  .discover .container .icon-word .data span:last-child {
+        font-size: 12px;
+        line-height: 1.5;
+        color: #a0a0a0;
+    }
+
+   .Hotels  .discover .container .second .icon-word i {
+        font-size: 25px;
+    }
+}
+.footer{
+    margin-top: 0;
+}
+.footer h3{
+    padding-top: 0;
+}
+
+/* end discover */
+/* ------------------------------------------------------------ */
+/* start footer  */
+

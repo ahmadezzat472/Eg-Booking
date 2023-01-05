@@ -1,0 +1,117 @@
+html{
+ height: 100%;
+}
+body{
+    margin:0px;
+     max-height: 100%;
+   
+}
+.logo{
+    color: white;
+    background-color:  rgba(22, 22, 156, 0.861);
+    width: fit-content;
+    font-family: cursive;
+    padding: 8px 10px 10px 10px;
+    border: 1px solid  rgba(22, 22, 156, 0.861);
+    border-radius: 5px;
+    margin-left: 20px;
+    position: absolute;
+    top: 20px; 
+
+}.logo_place{
+    background-color: rgba(22, 22, 156, 0.861);
+    height: 80px;
+    position: relative;
+    
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(48, 64, 64);
+    color: white;
+}
+
+.login{
+    height: 500px;
+    width: 420px;
+    margin: 124px auto;
+    background-color: #EEE;
+    border: 5px solid #EEE;
+    border-radius: 30px;
+    box-shadow: 0px 14px 41px 2px rgb(158, 154, 154); 
+    
+
+}
+.text1{
+    text-align: center;
+    margin-top: 5px;
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
+#form
+{
+    margin: 0% 111px;
+}
+#Emailaddress-form{
+  
+  padding: 8px 10px;
+    margin: 20px 0px 10px;
+    
+}
+#Password-form{
+    padding: 8px 10px;
+    margin: 0px 0px 10px;
+}
+.text-after-submit{
+    margin-left: 15px; 
+}
+.hr-1{
+    width: 80%; margin: 0px auto; 
+}
+.hr-2{
+    width: 80%; margin: 0px auto;
+}
+.policy{
+    text-align: center; margin: 10px 10px; line-height: 1.9; 
+}
+.last{
+    text-align: center;
+}
+#signinbuttom{
+    margin: 19px 40px;
+    padding: 9px 24px;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+#signinbuttom:hover{
+    background-color: rgb(92, 68, 196);
+    transition: 0.4s;
+}
+
+
+
+/* .wq1{
+    margin: 0%;
+    font-size: large;
+    
+} */
+/* .Emailaddress{
+    margin: 40px  111px 0px;
+    padding: 0%;
+
+}
+.Emailaddress p{
+    margin-bottom: 0px;
+    font-size: large;
+} */
+
+
+
+
+
